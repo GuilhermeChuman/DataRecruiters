@@ -47,3 +47,4 @@ C:\Users\PICHAU\Desktop\Projetos\GIT\DataRecruiters\DataRecruiters\obj\Debug\net
 C:\Users\PICHAU\Desktop\Projetos\GIT\DataRecruiters\DataRecruiters\obj\Debug\netcoreapp3.1\DataRecruiters.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\PICHAU\Desktop\Projetos\GIT\DataRecruiters\DataRecruiters\obj\Debug\netcoreapp3.1\DataRecruiters.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\PICHAU\Desktop\Projetos\GIT\DataRecruiters\DataRecruiters\obj\Debug\netcoreapp3.1\Razor\Pages\BuscarTalentos.cshtml.g.cs
+C:\Users\PICHAU\Desktop\Projetos\GIT\DataRecruiters\DataRecruiters\obj\Debug\netcoreapp3.1\Razor\Pages\CadastrarTalento.cshtml.g.cs

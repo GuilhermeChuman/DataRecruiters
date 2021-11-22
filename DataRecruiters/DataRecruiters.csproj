@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\css\Form.scss" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="ShieldUI.AspNetCore.Mvc" Version="1.7.34" />
   </ItemGroup>
 

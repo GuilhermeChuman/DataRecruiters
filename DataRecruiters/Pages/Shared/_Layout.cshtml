@@ -6,6 +6,7 @@
     <title>@ViewData["Title"] - DataRecruiters</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    @RenderSection("Styles", false)
 </head>
 <body>
     <header>
@@ -18,13 +19,19 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     <ul class="navbar-nav flex-grow-1">
+                        
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/CadastrarTalento">Cadastrar Talento</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/BuscarTalentos">Buscar Talentos</a>
+                        </li>
+
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
                         </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/BuscarTalentos">Buscar Talentos</a>
-                        </li>
                     </ul>
                 </div>
             </div>

@@ -6,34 +6,28 @@
 <div class="text-center">
     <h3 class="display-4">Procure aqui talentos para sua empresa!</h3>
     <center>
-        <table class="k-table" style="width: 769px; height: 178px;">
-            <tbody>
-                <tr style="border: solid;">
-                    <td style="width:25%; text-align: center; border: solid;">
-                        HEAD 1
-                    </td>
-                    <td style="width: 25%; text-align: center; border: solid;" data-role="resizable" colspan="2">
-                        HEAD 2
-                    </td>
-                    <td style="width: 25%; text-align: center; border: solid;" colspan="2" data-role="resizable">
-                        HEAD 3
-                    </td>
-                    <td style="width: 25%; text-align: center; border: solid;" colspan="2">
-                        HEAD 4
-                    </td>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Buscar" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+        <table class="table">
+            <thead class="table-primary">
+                <tr>
+                    <td scope="col">#</td>
+                    <td scope="col">HEAD 2</td>
+                    <td scope="col">HEAD 3</td>
+                    <td scope="col">HEAD 4</td>
+                    <td scope="col">Açoes</td>
                 </tr>
-                <tr style="border: solid;">
-                    <td style="width:25%; text-align: center;">
-                        AAAA
-                    </td>
-                    <td style="width: 25%; text-align: center; border: solid;" data-role="resizable" colspan="2">
-                        BBBBB
-                    </td>
-                    <td style="width: 25%; text-align: center; border: solid;" colspan="2" data-role="resizable">
-                        CCCCCC
-                    </td>
-                    <td style="width: 25%; text-align: center; border: solid;" colspan="2">
-                        DDDDDDD
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>               <!-- COLUMN # -->
+                    <td>BBBBB</td>           <!-- COLUMN 2 -->
+                    <td>CCCCCC</td>          <!-- COLUMN 3 -->
+                    <td>DDDDDDD</td>         <!-- COLUMN 4 -->
+                    <td>
+                        <!-- COLUMN BUTTONS -->
+                        <button type="button" class="btn btn-warning">Consultar</button>
                     </td>
                 </tr>
             </tbody>
